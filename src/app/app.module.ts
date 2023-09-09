@@ -2,10 +2,11 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { CounterModule } from './counter/counter.module';
+import { DbzModule } from './dbz/dbz.module';
 
 import { AppComponent } from './app.component';
 import { HeroesModule } from './heroes/heroes.module';
-import { CommonModule } from '@angular/common';
+
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { CommonModule } from '@angular/common';
     BrowserModule,
     CounterModule,
     HeroesModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
